@@ -26,8 +26,7 @@ public class StudentService {
 
 
     public List<StudentCourse> getAllStudentsWithCourses() {
-        List<StudentCourse> studentCourses = studentCourseRepository.findAll();
-        return studentCourses;
+        return studentCourseRepository.findAll();
 
     }
 
